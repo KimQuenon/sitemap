@@ -24,5 +24,10 @@ export default defineNuxtConfig({
         component: 'pages/contact.vue'
       }
     ]
-  }
+  },
+  modules: ['@nuxtjs/sitemap'],
+  site: {
+    url: 'https://example.com',
+    trailingSlash: true,
+  },
 })
